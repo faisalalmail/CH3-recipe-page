@@ -8,13 +8,9 @@ This is a solution to the [Recipe page challenge on Frontend Mentor](https://www
   - [The challenge](#the-challenge)
   - [Screenshot](#screenshot)
   - [Links](#links)
-- [My process](#my-process)
-  - [Built with](#built-with)
+- [Tools used](#tools-used)
   - [What I learned](#what-i-learned)
-  - [Continued development](#continued-development)
-  - [Useful resources](#useful-resources)
 - [Author](#author)
-- [Acknowledgments](#acknowledgments)
 
 **Note: Delete this note and update the table of contents based on what sections you keep.**
 
@@ -22,56 +18,34 @@ This is a solution to the [Recipe page challenge on Frontend Mentor](https://www
 
 ### Screenshot
 
-[Desktop view](scrs/ch4-scr1.png)
-[Mobile view](scrs/ch4-scr2.png)
+![Desktop view](scrs/ch4-scr1.png)
+![Mobile view](scrs/ch4-scr2.png)
 
 ### Links
 
 - Solution URL: [https://github.com/faisalalmail/CH3-recipe-page](https://github.com/faisalalmail/CH3-recipe-page)
 - Live Site URL: [https://ch-3-recipe-page-git-main-faisalalmails-projects.vercel.app/](https://ch-3-recipe-page-git-main-faisalalmails-projects.vercel.app/)
 
-## My process
-
-### Built with
-
-- Semantic HTML5 markup
-- CSS custom properties
-- Flexbox
-- CSS Grid
-- Mobile-first workflow
-- [React](https://reactjs.org/) - JS library
-- [Next.js](https://nextjs.org/) - React framework
-- [Styled Components](https://styled-components.com/) - For styles
-
-**Note: These are just examples. Delete this note and replace the list above with your own choices**
+## tools used
+- VS code
+- Git
+- GitHub
+- Vercel
 
 ### What I learned
 I have to say: **This was not an easy one**
+On the surface, its an easy project! yes if you were used to webdev and know the best practices, but I am not. 
 
+I created the basic elements of the project in a timely manner I thought I would finish it in one setting, but I later go into the little details of formatting lists and table which I didnt do in the previous challenges.
 
-### Continued development
+**I TRIED TO CHEAT**, I looked on frotendmentor for others solutions to figure out why my list text wouldn't indent properly or why the table flows out of the page in a webview, and what I found could not help me solve the issues I had.
 
-Use this section to outline areas that you want to continue focusing on in future projects. These could be concepts you're still not completely comfortable with or techniques you found useful that you want to refine and perfect.
+Everyone has a different style of implementation, sometimes a little property that you apply could affect the whole result. **lesson leared**
 
-**Note: Delete this note and the content within this section and replace with your own plans for continued development.**
-
-### Useful resources
-
-- [Example resource 1](https://www.example.com) - This helped me for XYZ reason. I really liked this pattern and will use it going forward.
-- [Example resource 2](https://www.example.com) - This is an amazing article which helped me finally understand XYZ. I'd recommend it to anyone still learning this concept.
-
-**Note: Delete this note and replace the list above with resources that helped you during the challenge. These could come in handy for anyone viewing your solution or for yourself when you look back on this project in the future.**
 
 ## Author
 
-- Website - [Add your name here](https://www.your-site.com)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
-- Twitter - [@yourusername](https://www.twitter.com/yourusername)
+My name is Faisal - A 35 year old guy from a small island in the middle of the world called Bahrain. I had the passion to code and practiced with html and PHP long ago. I stopped then, but the passion never died. and this could be my way to return.
 
-**Note: Delete this note and add/remove/edit lines above based on what links you'd like to share.**
-
-## Acknowledgments
-
-This is where you can give a hat tip to anyone who helped you out on this project. Perhaps you worked in a team or got some inspiration from someone else's solution. This is the perfect place to give them some credit.
-
-**Note: Delete this note and edit this section's content as necessary. If you completed this challenge by yourself, feel free to delete this section entirely.**
+- Instagram - [Faisal Almail](https://www.instagram.com/faisal.almail)
+- Frontend Mentor - [@FaisalAlmail](https://www.frontendmentor.io/profile/faisalalmail)
