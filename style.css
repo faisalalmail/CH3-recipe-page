@@ -93,6 +93,7 @@ table {
     width: 100%;
     border-collapse: collapse;
     margin-block-start: 1rem;
+
 }
 
 table td {
@@ -137,7 +138,7 @@ table tr:last-child{
     html {
         background-color: white;
     }
-    h1,h2,.prep-time,hr,span,table {
+    h1,h2,.prep-time,hr,span,.t-body,.unboxed-list {
         margin-inline-start: 2rem;
         margin-inline-end: 2rem;
     }
@@ -153,5 +154,6 @@ table tr:last-child{
     .thumbnail {
         border-radius: 0;
     }
+
 
 }
