@@ -1,0 +1,157 @@
+* {
+    margin: 0rem;
+    padding: 0rem;
+    font-family: "Outfit", sans-serif;
+    font-weight: 400;
+    box-sizing: border-box;
+}
+
+html {
+    background-color: hsl(30, 54%, 90%);
+    color: hsl(30, 10%, 34%);
+    /* font-size: 16px; */
+    
+}
+
+
+
+.recipe-card {
+    background-color: hsl(0, 0%, 100%);
+    width: 45rem;
+    margin: auto;
+    margin-block-start: 5rem;
+    border-radius: 2rem;
+    padding: 2rem;
+    margin-block-end: 5rem;
+}
+
+h1 {
+    font-family: "Young Serif", serif;
+    color: hsl(24, 5%, 18%);
+    font-weight: 400;
+    margin-block-end: 1rem;
+}
+
+h2 {
+    color: hsl(14, 45%, 36%);
+    font-family: "Young Serif", serif;
+    font-weight: 400;
+    margin-block-end: 1rem;
+}
+
+.thumbnail {
+    width:100%; /*of the container size */
+    display: block;
+    margin: auto;
+    border-radius: 1rem;
+    margin-block-end: 2rem;
+}
+
+.prep-time {
+    background-color: hsl(330, 100%, 98%);
+    padding: 1.5rem;
+    border-radius: 1rem;
+    margin-block-start: 1.5rem;
+    margin-block-end: 1.5rem;
+}
+
+.prep-time-title {
+    color: hsl(332, 51%, 32%);
+    font-weight: 700;
+    margin-block-end: 1rem;
+}
+
+ol li {
+
+    line-height: 150%;
+    margin-block-end: 1rem;
+    margin-inline-start: 2rem;
+    padding-inline-start: 1rem;
+
+}
+
+ul li {
+
+    line-height: 110%;
+    margin-block-end: 1rem;
+    margin-inline-start: 2rem;
+    padding-inline-start: 1rem;
+
+}
+
+
+
+strong { font-weight: bold; }
+
+li::marker {
+    color: hsl(14, 45%, 36%);
+    font-weight: bold;
+
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-block-start: 1rem;
+}
+
+table td {
+    padding: 0.7em;
+    padding-inline-start: 2rem;
+    
+}
+
+hr {
+  background-color: hsl(30, 18%, 87%);
+  height: 0.5px;
+  border-width: 0;
+  margin-block-start: 2rem;
+  margin-block-end: 1.5rem;
+}
+
+table td:last-child {
+    color: hsl(14, 45%, 36%);
+    font-weight: bold;
+}
+
+
+
+table tr {
+    border-bottom: 1px solid hsl(30, 18%, 87%);
+    border-collapse: collapse;
+}
+
+table tr:last-child{
+    /*this selector is working without a need for class*/
+    border-bottom: 0px;
+}
+
+@media (max-width:450px){
+    .recipe-card {
+        width: 100%;
+        margin:auto;
+        border-radius: 0px;
+        padding: 0;
+    }
+
+    html {
+        background-color: white;
+    }
+    h1,h2,.prep-time,hr,span,table {
+        margin-inline-start: 2rem;
+        margin-inline-end: 2rem;
+    }
+
+    ol {
+        margin-inline-start: 1rem;
+        margin-inline-end: 2rem; 
+    }
+
+    span {
+        display: block;
+    }
+    .thumbnail {
+        border-radius: 0;
+    }
+
+}
